@@ -1,5 +1,5 @@
-#ifndef kairo_chunk_h
-#define kairo_chunk_h
+#ifndef BYTECODEVM_chunk_h
+#define BYTECODEVM_chunk_h
 
 #include "common.h"
 
@@ -16,4 +16,5 @@ typedef struct {
 
 void initChunk(Chunk *chunk);
 void writeChunk(Chunk *chunk, uint8_t byte);
+void freeChunk(Chunk *chunk);
 #endif

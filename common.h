@@ -1,5 +1,5 @@
-#ifndef kairo_common_h
-#define kairo_common_h
+#ifndef BYTECODEVM_common_h
+#define BYTECODEVM_common_h
 
 #include <stdbool.h>
 #include <stddef.h>
